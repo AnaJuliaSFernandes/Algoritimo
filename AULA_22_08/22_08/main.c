@@ -30,9 +30,9 @@ int main()
 
     /*double valor, identificador;
     printf("Informe o valor a ser pago: ");
-    scanf("%d", &valor);
-    printf("1-A vista dinheiro/cheque com 10% de desconto \n 2-A vista no cart„o de credito com 15% de desconto \n 3-Em 2 vezes sem juros \n 4-Em 2 vezes no cart„o com juros \n Escolha a opÁ„o de pagamento desejavel:");
-    scanf("%d", &identificador);
+    scanf("%lf", &valor);
+    printf("1-A vista dinheiro/cheque com 10% de desconto \n 2-A vista no cart√£o de credito com 15% de desconto \n 3-Em 2 vezes sem juros \n 4-Em 2 vezes no cart√£o com juros \n Escolha a op√ß√£o de pagamento desejavel:");
+    scanf("%lf", &identificador);
     if(identificador == 1){
         printf("O valor do seu pagamento eh: %lf", (valor * 10/100) - valor);
     }
@@ -44,6 +44,9 @@ int main()
     }
     else if(identificador == 4) {
         printf("O valor do seu pagamento eh: %lf", ((valor * 10/100) + valor) / 2);
+    }
+    else if(identificador > 5) {
+        printf("ERRO");
     }*/
 
     /*int num1, num2, conta1, conta2;
@@ -52,13 +55,13 @@ int main()
     printf("Informe o segundo numero: ");
     scanf("%d", &num2);
     if (num1 % 2 == 0 && num2 % 2 == 0){
-        printf("Ambos numeros s„o par!");
+        printf("Ambos numeros s√£o par!");
     }
     else if (num1 % 2 == 0 || num2 % 2 == 0){
         printf("Ao menos um numero eh impar!");
     }
     else{
-        printf("Nenhum dos numeros s„o par!");
+        printf("Nenhum dos numeros s√£o par!");
     }*/
 
     char sexo;
@@ -76,7 +79,8 @@ int main()
         printf("Peso ideal: %.2lf", peso);
     }
     else {
-        printf("OpÁ„o invalida!");
+        printf("Op√ß√£o invalida!");
     }
     return 0;
 }
+
