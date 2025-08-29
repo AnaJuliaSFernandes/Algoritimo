@@ -6,7 +6,7 @@ int main()
     /*double valor, identificador;
     printf("Informe o valor a ser pago: ");
     scanf("%lf", &valor);
-    printf("1-A vista dinheiro/cheque com 10% de desconto \n 2-A vista no cart„o de credito com 15% de desconto \n 3-Em 2 vezes sem juros \n 4-Em 2 vezes no cart„o com juros \n Escolha a opÁ„o de pagamento desejavel:");
+    printf("1-A vista dinheiro/cheque com 10% de desconto \n 2-A vista no cart√£o de credito com 15% de desconto \n 3-Em 2 vezes sem juros \n 4-Em 2 vezes no cart√£o com juros \n Escolha a op√ß√£o de pagamento desejavel:");
     scanf("%lf", &identificador);
     if(identificador == 1){
         printf("O valor do seu pagamento eh: %lf", (valor * 10/100) - valor);
@@ -33,7 +33,7 @@ int main()
     scanf("%lf", &c);
     delta = b*b -4*a*c;
     if(delta < 0){
-        printf("N„o existem raizes reais!\n");
+        printf("N√£o existem raizes reais!\n");
     }
     else if(delta == 0){
         x1 = -b/(2*a);
@@ -115,7 +115,7 @@ int main()
     printf("Informe o segundo numero: ");
     scanf("%d", &n2);
     printf("Informe o valor da conta (+,-,*,/): ");
-    scanf("%c", &conta);
+    scanf(" %c", &conta);
     switch(conta){
         case '+':{
             printf("A soma eh: %d", n1+n2);
@@ -126,7 +126,7 @@ int main()
             break;
         }
         case '*':{
-            printf("A multiplicaÁ„o eh: %d", n1*n2);
+            printf("A multiplica√ß√£o eh: %d", n1*n2);
             break;
         }
         case '/':{
@@ -136,3 +136,4 @@ int main()
     }
     return 0;
 }
+
