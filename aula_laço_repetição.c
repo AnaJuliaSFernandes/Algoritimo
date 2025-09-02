@@ -4,7 +4,7 @@
 
 int main()
 {
-     /*LAÇO DE REPETIÇÃO*/
+     /*LAÃ‡O DE REPETIÃ‡ÃƒO*/
 
      /*int num =1;
      while(num <= 10){
@@ -23,7 +23,7 @@ int main()
 
      /*int num, cont = 1, soma = 0;
      while(cont <= 10) {
-        printf("Informe o %d º numero: ", cont);
+        printf("Informe o %d Âº numero: ", cont);
         scanf("%d", &num);
         soma += num;
         cont++;
@@ -33,7 +33,7 @@ int main()
 
      /*int num, cont = 1, soma = 0, result = 0;
      while(cont <= 15) {
-        printf("Informe o %d º numero: ", cont);
+        printf("Informe o %d Âº numero: ", cont);
         scanf("%d", &num);
 
         if (num >= 0) {
@@ -49,13 +49,16 @@ int main()
 
     int num, maior, menor, cont = 2;
 
-    printf("Informe o 1º numero: ");
+    printf("Informe o 1Âº numero: ");
     scanf("%d", &num);
-    maior = num;
-    menor = num;
+    if(num !=0){
+        maior = num;
+        menor = num;
+    
+   
 
     while(cont <= 10) {
-        printf("Informe o %dº numero", cont);
+        printf("Informe o %dÂº numero", cont);
         scanf("%d", &num);
         if(num > maior){
             maior = num;
@@ -65,7 +68,11 @@ int main()
         }
     cont++;
     }
-    printf("Maior %d\n Menor: %d\n", maior, menor);
+    
+    printf("Maior %d\n Menor: %d\n", maior, menor);}
+    eles { 
+       printf("NÃºmero invÃ¡lido");
+    }
 
     return 0;
 }
