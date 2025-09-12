@@ -77,28 +77,28 @@ int main()
     return 0;
 }
 
-#include <stdio.h>
+/*#include <stdio.h>
 #include <stdlib.h>
 
 int main()
 {
-    /*char sexo;
+    char sexo;
     int idade, somaIdade = 0, mulheres = 0, homens = 0;
     double peso, somaPeso = 0;
     for(int i = 1; i <= 10; i++){
         printf("Informe o seu sexo: ");
-        scanf("%c", &sexo);
+        scanf(" %c", &sexo);
         printf("Informe o sua idade: ");
         scanf("%d", &idade);
-        printf("Informe o seu sexo: ");
+        printf("Informe o seu peso: ");
         scanf("%lf", &peso);
 
-        if(sexo == 'feminino'){
+        if(sexo == 'f' || sexo == 'F'){
             mulheres++;
             somaPeso += peso;
         }
 
-        else if(sexo = 'masculino'){
+        else if(sexo = 'm' || sexo == 'M'){
             homens++;
             somaIdade += idade;
         }
@@ -108,9 +108,11 @@ int main()
 
     }
     printf("A qauntidade de mulheres eh: %d", mulheres);
-    printf("Media dos pesos das mulheres: %2lf\n", (somaPeso/mulheres));
+    printf("Media dos pesos das mulheres: %.2lf\n", (somaPeso/mulheres));
     printf("A quantidade de homens eh: %d", homens);
-    printf("Media da idade dos homens: %d\n", somaIdade/homens);*/
+    printf("Media da idade dos homens: %d\n", somaIdade/homens);
+    return 0;
+}*/
 
     /*int num, maior, menor, soma;
     double media;
@@ -195,4 +197,5 @@ int main()
 
     return 0;
 }
+
 
